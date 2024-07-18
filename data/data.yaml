@@ -1,0 +1,5 @@
+train: /Users/balajimac/Desktop/Project/PPE--Detection/data/train/images
+val: /Users/balajimac/Desktop/Project/PPE--Detection/data/valid/images 
+
+nc: 5
+names: ['Helmet', 'Goggles', 'Jacket', 'Gloves', 'Footwear']
