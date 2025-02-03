@@ -10,7 +10,7 @@ pygame.mixer.init()
 person_model = YOLO("yolov8l.pt")
 equipment_model = YOLO("/Users/balajimac/Desktop/Project/IPPE/runs/detect/train/weights/best.pt ")
 
-cap = cv2.VideoCapture('/Users/balajimac/Desktop/Project/IPPE/UncleAuntySafety.mp4')
+cap = cv2.VideoCapture(0)
 class_name = ['Helmet', 'Goggles', 'Jacket', 'Gloves', 'Footwear']
 
 
